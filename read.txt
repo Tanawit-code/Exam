@@ -1,0 +1,11 @@
+cd backend
+npm init -y
+npm install express mongoose cors bcryptjs jsonwebtoken
+
+
+
+cd frontend
+npm create vite@latest .
+npm install
+npm install axios react-router-dom
+npm run dev
